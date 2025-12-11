@@ -1,2 +1,32 @@
-.venv
-.idea
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Wirtualne środowisko (Kluczowe!) ---
+venv/
+env/
+.env
+.venv/
+
+# --- Pliki dystrybucyjne i instalacyjne ---
+build/
+dist/
+*.egg-info/
+
+# --- IDE (Ustawienia edytorów, nie wysyłamy tego) ---
+.idea/
+.vscode/
+*.swp
+
+# --- Systemowe ---
+.DS_Store
+Thumbs.db
+
+# --- Pliki projektu (Wynikowe) ---
+# Ignorujemy wygenerowane mp3, żeby nie zapchać repozytorium
+*.mp3
+*.wav
+
+# Opcjonalnie: logi błędów
+*.log
