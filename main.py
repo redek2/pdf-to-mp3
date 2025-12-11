@@ -1,1 +1,3 @@
-#pdf-to-mp3 project
+import customtkinter
+import pyttsx3
+import pypdf
